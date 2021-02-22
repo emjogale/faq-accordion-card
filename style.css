@@ -12,11 +12,35 @@ html {
 
 .container {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* background-image: linear-gradient(red, yellow); */
+	background-image: linear-gradient(red, yellow);
 	min-height: 100vh;
 	width: 100%;
+	padding: 30px;
+}
+
+.card {
+	display: block;
+	height: 100%;
+	width: 100%;
+	max-width: 375px;
+	margin: 0 auto;
+	position: relative;
+	/* justify-content: left;*/
+	/* align-items: center; */
+	background-color: aliceblue;
+	border-radius: 15px;
+	margin: 20px;
+}
+
+.card-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
 }
 
 .attribution {
