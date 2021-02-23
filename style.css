@@ -79,6 +79,16 @@ h1 {
 	display: none;
 }
 
+p.q:hover {
+	color: hsl(14, 88%, 65%);
+	cursor: pointer;
+}
+
+/* active styles */
+.active {
+	font-weight: bold;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
