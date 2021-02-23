@@ -69,6 +69,16 @@ h1 {
 	margin-bottom: 2rem;
 }
 
+.question {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem 0;
+}
+
+.a {
+	display: none;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
