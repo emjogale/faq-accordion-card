@@ -43,6 +43,13 @@ html {
 	padding: 2rem;
 }
 
+.image-content {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
