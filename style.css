@@ -1,3 +1,5 @@
+/* general styles */
+
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 * {
 	margin: 0;
@@ -21,6 +23,7 @@ html {
 	padding: 30px;
 }
 
+/* card styles */
 .card {
 	display: block;
 	height: 100%;
@@ -43,11 +46,27 @@ html {
 	padding: 2rem;
 }
 
+/* image setction styles */
 .image-content {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	align-items: center;
+	margin-bottom: 2rem;
+}
+
+img.main-pic {
+	position: absolute;
+	bottom: 40px;
+}
+
+/* text styles */
+
+h1 {
+	text-align: center;
+	font-size: xx-large;
+	font-weight: 700;
+	margin-bottom: 2rem;
 }
 
 .attribution {
