@@ -73,6 +73,7 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 	padding: 1.5rem 0;
+	border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 .a {
