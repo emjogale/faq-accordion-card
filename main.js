@@ -1,5 +1,6 @@
 // grab all questions
 const questions = document.querySelectorAll(".question");
+
 console.log(questions);
 
 // loop through the questions and listen for a click event

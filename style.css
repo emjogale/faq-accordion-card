@@ -78,6 +78,8 @@ h1 {
 
 .a {
 	display: none;
+	margin-top: 1.5rem;
+	padding-right: 2.5rem;
 }
 
 p.q:hover {
@@ -87,8 +89,12 @@ p.q:hover {
 
 /* active styles */
 .active {
-	font-weight: bold;
 	flex-direction: column;
+}
+
+p.q.active {
+	font-weight: bold;
+	color: black;
 }
 
 .attribution {
