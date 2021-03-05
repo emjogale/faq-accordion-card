@@ -97,6 +97,13 @@ p.q.active {
 	color: black;
 }
 
+/* styles for larger screens */
+@media only screen and (min-width: 1025px) {
+	.card {
+		flex-direction: row;
+	}
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
