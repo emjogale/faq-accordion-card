@@ -7,7 +7,8 @@
 	box-sizing: border-box;
 }
 
-html {
+html,
+button {
 	font-family: "Kumbh Sans", sans-serif;
 	font-size: 12px;
 }
@@ -33,7 +34,7 @@ html {
 	position: relative;
 	/* justify-content: left;*/
 	/* align-items: center; */
-	background-color: aliceblue;
+	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
 }
@@ -69,14 +70,7 @@ h1 {
 	margin-bottom: 2rem;
 }
 
-.question {
-	display: flex;
-	justify-content: space-between;
-	padding: 1.5rem 0;
-	border-bottom: 1px solid hsl(240, 5%, 91%);
-}
-
-.a {
+/*a {
 	display: none;
 	margin-top: 1.5rem;
 	padding-right: 2.5rem;
@@ -85,16 +79,39 @@ h1 {
 p.q:hover {
 	color: hsl(14, 88%, 65%);
 	cursor: pointer;
-}
+}*/
 
 /* active styles */
-.active {
+/* .active {
 	flex-direction: column;
 }
 
 p.q.active {
 	font-weight: bold;
 	color: black;
+} */
+
+/*different_accordian styles */
+button.question {
+	width: 100%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	text-align: left;
+	justify-content: space-between;
+	padding: 1.5rem 0;
+	border-bottom: 1px solid hsl(240, 5%, 91%);
+	background: white;
+}
+
+.question p {
+	width: 80%;
+}
+
+.accordian-content {
+	padding: 1.5rem 0;
+	max-width: 90%;
 }
 
 /* styles for larger screens */
