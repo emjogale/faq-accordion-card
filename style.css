@@ -70,17 +70,6 @@ h1 {
 	margin-bottom: 2rem;
 }
 
-/*a {
-	display: none;
-	margin-top: 1.5rem;
-	padding-right: 2.5rem;
-}
-
-p.q:hover {
-	color: hsl(14, 88%, 65%);
-	cursor: pointer;
-}*/
-
 /* active styles */
 /* .active {
 	flex-direction: column;
@@ -100,18 +89,31 @@ button.question {
 	display: flex;
 	text-align: left;
 	justify-content: space-between;
-	padding: 1.5rem 0;
-	border-bottom: 1px solid hsl(240, 5%, 91%);
+	padding: 1.5rem 0 1rem 0;
+	border-top: 1px solid hsl(240, 5%, 91%);
 	background: white;
+	margin-bottom: 0.5rem;
 }
 
 .question p {
 	width: 80%;
 }
 
+.question p:hover {
+	color: hsl(14, 88%, 65%);
+}
+
 .accordian-content {
-	padding: 1.5rem 0;
 	max-width: 90%;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.2s ease-out;
+}
+
+/* arrow styles */
+button img {
+	/* transform: rotate(-180deg);
+	transition: transform 0.3s ease-in-out; */
 }
 
 /* styles for larger screens */
