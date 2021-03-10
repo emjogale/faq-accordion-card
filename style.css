@@ -21,7 +21,7 @@ button {
 	background-image: linear-gradient(hsl(263, 60%, 60%), hsl(240, 73%, 65%));
 	min-height: 100vh;
 	width: 100%;
-	padding: 30px;
+	padding: 20px;
 }
 
 /* card styles */
@@ -32,8 +32,6 @@ button {
 	max-width: 375px;
 	margin: 0 auto;
 	position: relative;
-	/* justify-content: left;*/
-	/* align-items: center; */
 	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
@@ -117,7 +115,27 @@ button img {
 /* styles for larger screens */
 @media only screen and (min-width: 1025px) {
 	.card {
+		max-width: 1240px;
+		min-height: fit-content;
+	}
+
+	.card-content {
 		flex-direction: row;
+		align-items: center;
+		padding: 4rem;
+	}
+
+	.image-content {
+		width: 50%;
+	}
+
+	.text-container {
+		width: 50%;
+		padding: 2rem 3rem 2rem 1rem;
+	}
+
+	h1 {
+		text-align: left;
 	}
 }
 
