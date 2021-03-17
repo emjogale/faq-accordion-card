@@ -12,7 +12,7 @@
 			href="./images/favicon-32x32.png"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<title>Frontend Mentor | FAQ Accordion Card</title>
+		<title>Emma Gale | FAQ Accordion Card</title>
 	</head>
 
 	<body>
@@ -20,88 +20,98 @@
 			<div class="card">
 				<div class="card-content">
 					<div class="image-content">
-						<img
-							src="./images/illustration-woman-online-mobile.svg"
-							alt="woman online"
-							class="main-pic"
-						/>
-						<img src="./images/bg-pattern-mobile.svg" alt="" class="shadow" />
+						<div class="image-container">
+							<img
+								src="./images/illustration-woman-online-mobile.svg"
+								alt="woman online"
+								class="main-pic mobile"
+							/>
+							<img
+								src="./images/bg-pattern-mobile.svg"
+								alt=""
+								class="shadow mobile"
+							/>
+
+							<img
+								src="./images/illustration-box-desktop.svg"
+								alt=""
+								class="box desktop"
+							/>
+
+							<img
+								src="./images/illustration-woman-online-desktop.svg"
+								alt="woman online"
+								class="main-pic desktop"
+							/>
+
+							<img
+								src="./images/bg-pattern-desktop.svg"
+								alt=""
+								class="shadow desktop"
+							/>
+						</div>
 					</div>
 
 					<div class="text-container">
 						<h1>FAQ</h1>
 
-						<div class="question" data-number="1">
-							<div class="qAndA">
-								<p class="q">How many team members can I invite?</p>
-								<p class="a" data-number="1">
-									You can invite up to 2 additional users on the Free plan. There
-									is no limit on team members for the Premium plan.
-								</p>
-							</div>
-							<div class="arrow-box">
-								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
-								
-							</div>
-						</div>
-					
-
-						<div class="question" data-number="2">
-							<div class="qAndA">
-								<p class="q" >What is the maximum file upload size?</p>
-								<p class="a" data-number="2">
-									No more than 2GB. All files in your account must fit your allotted
-									storage space.
-								</p>
-							</div>
+						<button class="question" data-number="1">
+							<p class="q">How many team members can I invite?</p>
 							<div class="arrow-box">
 								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
 							</div>
+						</button>
+						<div class="accordian-content" data-number="1">
+							You can invite up to 2 additional users on the Free plan. There is
+							no limit on team members for the Premium plan.
 						</div>
 
-						<div class="question" data-number="3" >
-							<div class="qAndA">
-								<p class="q" > How do I reset my password?</p>
-								<p class="a" data-number="3">
-									Click “Forgot password” from the login page or “Change password”
-									from your profile page. A reset link will be emailed to you.
-								</p>
-							</div>
+						<button class="question" data-number="2">
+							<p class="q">What is the maximum file upload size?</p>
 							<div class="arrow-box">
 								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
 							</div>
+						</button>
+						<div class="accordian-content" data-number="2">
+							No more than 2GB. All files in your account must fit your allotted
+							storage space.
 						</div>
 
-						<div class="question" data-number="4">
-							<div class="qAndA">
-								<p class="q">Can I cancel my subscription?</p>
-							    <p class="a" data-number="4">
-								Yes! Send us a message and we’ll process your request no
-								questions asked.
-							    </p>
-							</div>
+						<button class="question" data-number="3">
+							<p class="q">How do I reset my password?</p>
 							<div class="arrow-box">
 								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
 							</div>
+						</button>
+						<div class="accordian-content" data-number="3">
+							Click “Forgot password” from the login page or “Change password”
+							from your profile page. A reset link will be emailed to you.
 						</div>
 
-						<div class="question" data-number="5" >
-							<div class="qAndA">
-								<p class="q" >Do you provide additional support?</p>
-								<p class="a" data-number="5">
-									Chat and email support is available 24/7. Phone lines are open
-									during normal business hours.
-								</p>
-							</div>
+						<button class="question" data-number="4">
+							<p class="q">Can I cancel my subscription?</p>
 							<div class="arrow-box">
 								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
 							</div>
+						</button>
+						<div class="accordian-content" data-number="4">
+							Yes! Send us a message and we’ll process your request no questions
+							asked.
 						</div>
 
+						<button class="question" data-number="5">
+							<p class="q">Do you provide additional support?</p>
+							<div class="arrow-box">
+								<img src="./images/icon-arrow-down.svg" alt="arrow button" />
+							</div>
+						</button>
+						<div class="accordian-content" data-number="5">
+							Chat and email support is available 24/7. Phone lines are open
+							during normal business hours.
+						</div>
 					</div>
-			    </div>
+				</div>
 			</div>
-		</div>
 
 			<div class="attribution">
 				Challenge by
