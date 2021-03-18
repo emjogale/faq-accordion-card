@@ -160,7 +160,7 @@ button img {
 	.desktop {
 		display: block;
 		position: absolute;
-		left: -80px;
+		left: -100px;
 	}
 
 	.main-pic.desktop {
@@ -174,11 +174,12 @@ button img {
 	}
 
 	.box {
-		top: 43%;
-		left: -125px;
+		top: 15%;
+		left: -55px;
 		z-index: 1;
 		width: 30%;
 		position: absolute;
+		transform: translateX(-50%) translateY(70%);
 	}
 
 	.text-container {
