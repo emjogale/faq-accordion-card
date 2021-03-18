@@ -131,7 +131,7 @@ button img {
 /* styles for larger screens */
 @media only screen and (min-width: 1025px) {
 	.card {
-		max-width: 1240px;
+		max-width: 1000px;
 		min-height: fit-content;
 	}
 
