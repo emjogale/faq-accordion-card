@@ -8,7 +8,7 @@
 }
 
 html,
-button {
+div {
 	font-family: "Kumbh Sans", sans-serif;
 	font-size: 12px;
 }
@@ -92,7 +92,7 @@ h1 {
 }
 
 /*different_accordian styles */
-button.question {
+div.question {
 	width: 100%;
 	border: none;
 	outline: none;
@@ -123,7 +123,7 @@ button.question {
 }
 
 /* arrow styles */
-button img {
+div img {
 	/* transform: rotate(-180deg); */
 	transition: transform 0.3s ease-in-out;
 }

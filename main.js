@@ -2,7 +2,7 @@
 const questions = document.querySelectorAll(".question");
 const questionP = document.querySelectorAll(".q");
 const answers = document.querySelectorAll(".accordian-content");
-const arrows = document.querySelectorAll("button img");
+const arrows = document.querySelectorAll(".arrow-box img");
 console.log(questionP);
 
 // show clicked content and hide others
@@ -29,7 +29,7 @@ active = (item, index) => {
 	});
 };
 
-// add function to all question element buttons
+// add function to all question element divs
 questions.forEach((question, i) => {
 	question.addEventListener("click", () => active(answers[i], i));
 });
