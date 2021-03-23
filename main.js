@@ -12,13 +12,17 @@ const arrows = document.querySelectorAll(".arrow-box img");
 // add a function to all questions
 questions.forEach(function (question) {
 	question.addEventListener("click", () => {
+		console.log(question.nextElementSibling);
 		if (question.parentNode.classList.contains("active")) {
 			question.parentNode.classList.toggle("active");
+			question.nextElementSibling.classList.toggle("show");
 		} else {
 			questions.forEach(function (question) {
 				question.parentNode.classList.remove("active");
+				question.nextElementSibling.classList.remove("show");
 			});
 			question.parentNode.classList.add("active");
+			question.nextElementSibling.classList.add("show");
 		}
 	});
 });
