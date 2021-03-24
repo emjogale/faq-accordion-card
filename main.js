@@ -1,18 +1,9 @@
-// grab all q and a sections
-const qandas = document.querySelectorAll(".qanda");
-// grab the active question
-
-// // grab all questions
+// // Simplified js for showing answers
 const questions = document.querySelectorAll(".question");
-const questionP = document.querySelectorAll(".q");
-const answers = document.querySelectorAll(".accordian-content");
-const arrows = document.querySelectorAll(".arrow-box img");
-// console.log(questionP);
 
 // add a function to all questions
 questions.forEach(function (question) {
 	question.addEventListener("click", () => {
-		console.log(question.nextElementSibling);
 		if (question.parentNode.classList.contains("active")) {
 			question.parentNode.classList.toggle("active");
 			question.nextElementSibling.classList.toggle("show");

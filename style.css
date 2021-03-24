@@ -45,7 +45,7 @@ div {
 	padding: 2rem;
 }
 
-/* image setction styles */
+/* image section styles */
 .image-content {
 	display: flex;
 	flex-direction: column;
@@ -84,18 +84,7 @@ h1 {
 	margin-bottom: 2rem;
 }
 
-/* active styles */
-
-.active {
-	font-weight: bold;
-	color: black;
-}
-
-.active img {
-	transform: rotate(180deg);
-}
-
-/*accordian styles */
+/*question styles */
 div.question {
 	width: 100%;
 	border: none;
@@ -113,9 +102,14 @@ div.question {
 .question p {
 	width: 80%;
 }
-
 .question p:hover {
 	color: hsl(14, 88%, 65%);
+}
+
+/* active accordian styles */
+.active p {
+	font-weight: bold;
+	color: black;
 }
 
 .accordian-content {
@@ -131,11 +125,10 @@ div.question {
 }
 
 /* arrow styles */
-div img {
+.active img {
+	transform: rotate(180deg);
 	transition: transform 0.3s ease-in-out;
 }
-
-.
 
 /* styles for larger screens */
 @media only screen and (min-width: 1025px) {
