@@ -18,7 +18,7 @@ div {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(hsl(263, 60%, 60%), hsl(240, 73%, 65%));
+	background-image: linear-gradient(#af67e9, #6565e7);
 	min-height: 100vh;
 	width: 100%;
 	padding: 20px;
@@ -132,14 +132,14 @@ div.question {
 /* styles for larger screens */
 @media only screen and (min-width: 1025px) {
 	.card {
-		max-width: 70%;
+		max-width: 65%;
 		/* min-height: fit-content; */
 	}
 
 	.card-content {
 		flex-direction: row;
 		align-items: center;
-		padding: 4rem;
+		padding: 4rem 4rem 2rem 4rem;
 	}
 
 	.image-content {
