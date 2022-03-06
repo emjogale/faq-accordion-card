@@ -10,7 +10,12 @@
 html,
 div {
 	font-family: "Kumbh Sans", sans-serif;
-	font-size: 12px;
+	font-size: 16px;
+}
+
+p {
+	font-size: 0.75rem;
+	line-height: 18px;
 }
 
 .container {
@@ -35,6 +40,7 @@ div {
 	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
+	box-shadow: 0 8px 20px 0px rgba(62, 62, 248, 0.5);
 }
 
 .card-content {
@@ -79,7 +85,7 @@ img.shadow.mobile {
 
 h1 {
 	text-align: center;
-	font-size: xx-large;
+	font-size: 2rem;
 	font-weight: 700;
 	margin-bottom: 2rem;
 }
@@ -115,7 +121,7 @@ div.question {
 
 /* active accordian styles */
 .show p.q {
-	font-weight: bold;
+	font-weight: 700;
 	color: black;
 }
 
