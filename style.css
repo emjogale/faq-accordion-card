@@ -14,6 +14,7 @@ div {
 }
 
 p {
+	font-size: 1.2rem;
 	line-height: 18px;
 }
 
@@ -39,7 +40,7 @@ p {
 	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
-	box-shadow: 0 8px 20px 0px rgba(62, 62, 248, 0.5);
+	box-shadow: 0 8px 40px 0px rgba(37, 37, 155, 0.5);
 }
 
 .card-content {
@@ -84,7 +85,7 @@ img.shadow.mobile {
 
 h1 {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2.75rem;
 	font-weight: 700;
 	margin-bottom: 2rem;
 }
