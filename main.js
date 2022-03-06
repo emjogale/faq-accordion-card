@@ -7,7 +7,6 @@ questions.forEach((question) => {
 	const q = question.querySelector(".question");
 	console.log(q);
 	q.addEventListener("click", () => {
-		console.log("asking a question!");
 		questions.forEach((item) => {
 			if (item != q) {
 				item.classList.remove("show");
