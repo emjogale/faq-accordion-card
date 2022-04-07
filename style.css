@@ -45,8 +45,7 @@ img {
 }
 
 button {
-	border: none;
-	font-family: inherit;
+	all: inherit;
 }
 
 /*typography*/
