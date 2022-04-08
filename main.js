@@ -1,5 +1,5 @@
 // // Grab all the questions
-const questions = document.querySelectorAll(".qanda");
+const questions = document.querySelectorAll(".q-and-a");
 console.log(questions);
 
 questions.forEach((question) => {
