@@ -164,7 +164,13 @@ h1 {
 	overflow: hidden;
 }
 
+.accordian-content p {
+	font-size: 1rem;
+}
 /* active accordian styles */
+.show.qanda {
+	min-height: 9rem;
+}
 .show .q button {
 	font-weight: 700;
 	color: black;
