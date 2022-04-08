@@ -2,16 +2,29 @@
 const questions = document.querySelectorAll(".qanda");
 console.log(questions);
 
-// add a function to all questions
 questions.forEach((question) => {
 	const q = question.querySelector(".question");
-	console.log(q);
+	let btn = question.querySelector("button");
 	q.addEventListener("click", () => {
 		questions.forEach((item) => {
 			if (item != q) {
 				item.classList.remove("show");
 			}
 		});
-		question.classList.toggle("show");
+
+		if (question.classList.contains("show")) {
+			console.log("yes it does!!");
+			question.classList.remove("show");
+		} else {
+			question.classList.add("show");
+		}
+		let expanded = btn.getAttribute("aria-expanded");
+		if (expanded == "true") {
+			console.log("yep true");
+			expanded = "false";
+		} else {
+			expanded = "true";
+		}
+		btn.setAttribute("aria-expanded", expanded);
 	});
 });
