@@ -7,6 +7,5 @@ This is a solution to the [FAQ Accordion Card coding challenge on Frontend Mento
 To Do
 
 - sort out the readme!
-- check if h2's would be better than p elements for the questions and if so alter
 - add aria-expanded states inc button.setAttribute
 - check all font sizes and other styling
