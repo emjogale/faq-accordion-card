@@ -137,9 +137,6 @@ h1 {
 /*question styles */
 .question {
 	width: 100%;
-	border: none;
-	outline: none;
-
 	display: flex;
 	text-align: left;
 	justify-content: space-between;
@@ -149,8 +146,8 @@ h1 {
 	margin-bottom: 0.5rem;
 }
 
-.question p {
-	width: 80%;
+.question h2 {
+	font-size: 1.085rem;
 }
 .question button:hover {
 	color: hsl(14, 88%, 65%);
