@@ -5,6 +5,7 @@ console.log(questions);
 questions.forEach((question) => {
 	const q = question.querySelector(".question");
 	let btn = question.querySelector("button");
+
 	q.addEventListener("click", () => {
 		questions.forEach((item) => {
 			if (item != q) {
@@ -13,14 +14,14 @@ questions.forEach((question) => {
 		});
 
 		if (question.classList.contains("show")) {
-			console.log("yes it does!!");
+			X;
 			question.classList.remove("show");
 		} else {
 			question.classList.add("show");
 		}
 		let expanded = btn.getAttribute("aria-expanded");
 		if (expanded == "true") {
-			console.log("yep true");
+			question.classList.remove("show");
 			expanded = "false";
 		} else {
 			expanded = "true";
