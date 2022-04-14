@@ -1,6 +1,5 @@
 // // Grab all the questions
 const questions = document.querySelectorAll(".q-and-a");
-console.log(questions);
 
 questions.forEach((question) => {
 	const q = question.querySelector(".question");
@@ -14,7 +13,6 @@ questions.forEach((question) => {
 		});
 
 		if (question.classList.contains("show")) {
-			X;
 			question.classList.remove("show");
 		} else {
 			question.classList.add("show");
