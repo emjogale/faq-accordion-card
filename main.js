@@ -19,7 +19,6 @@ questions.forEach((question) => {
 		}
 		let expanded = btn.getAttribute("aria-expanded");
 		if (expanded == "true") {
-			question.classList.remove("show");
 			expanded = "false";
 		} else {
 			expanded = "true";
