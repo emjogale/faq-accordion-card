@@ -1,16 +1,14 @@
 // Grab all the questions
-const questions = document.querySelectorAll(".question");
+const questions = document.querySelectorAll(".q-and-a");
 
 questions.forEach((question) => {
 	const q = question.querySelector(".question");
 	let btn = question.querySelector("button");
-	console.log(question);
 
 	q.addEventListener("click", () => {
 		questions.forEach((item) => {
 			if (item != q) {
 				item.classList.remove("show");
-				console.log();
 			}
 		});
 
